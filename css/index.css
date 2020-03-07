@@ -276,8 +276,8 @@ footer {
   width: 28%;
 }
 .home .walk .walk-text .btn:hover {
-  color: #23293B;
-  background-color: #F6F6F6;
+  color: #FFFFFF;
+  background-color: #17A2B8;
 }
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
@@ -308,4 +308,68 @@ header {
   header {
     padding-top: 18%;
   }
+}
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 3% 0;
+}
+.contact-section h4 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.magazine {
+  width: 100%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+  margin: 2% auto;
+}
+form label {
+  color: #23293B;
+  font-size: 1.4rem;
+  margin: 1% 0;
+}
+form .plan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form .sub {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1%;
+}
+form .sub span {
+  padding: 0 1%;
+  font-size: 1.4rem;
+  color: #23293B;
+}
+button {
+  background-color: #23293B;
+  padding: 3%;
+  border-radius: 13px;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 1.6rem;
+  width: 50%;
+  align-self: center;
+}
+button:hover {
+  background-color: #17A2B8;
+}
+.contact-section {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0.6%;
+  background-color: #f4f4f4;
+  padding: 5% 0 5% 0;
 }

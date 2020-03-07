@@ -11,13 +11,27 @@
     
 
     &:hover {
-        color: @sinup-btn-color;
-        background-color: @sign-font-color;
+        color: @white;
+        background-color: @button-bg;
     }
 
     @media @phone{
         width: 100%;
         padding: 5%
+    }
+}
+
+.magButton(@sinup-btn-color, @white){
+    background-color: @sinup-btn-color;
+    padding: 3%;
+    border-radius: 13px;
+    color: @white;
+    text-align: center;
+    font-size: 1.6rem;
+    width: 50%;
+
+    &:hover{
+        background-color: @button-bg;
     }
 }
 
@@ -33,3 +47,4 @@
        color: @footer-font-color;
     }
 }
+
