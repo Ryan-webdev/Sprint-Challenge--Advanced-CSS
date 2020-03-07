@@ -366,8 +366,8 @@ button:hover {
 }
 .contact-section {
   display: flex;
-  width: 100%;
   flex-direction: column;
+  width: 100%;
   align-items: center;
   margin-top: 0.6%;
   background-color: #f4f4f4;
