@@ -1,1 +1,35 @@
 // Mixins Here
+
+.signupButton(@sinup-btn-color, @sign-font-color){
+    background-color: @sinup-btn-color;
+    padding: 2%;
+    border-radius: 7px;
+    color: @sign-font-color;
+    text-align: center;
+    font-size: 1.4rem;
+    width: 28%;
+    
+
+    &:hover {
+        color: @sinup-btn-color;
+        background-color: @sign-font-color;
+    }
+
+    @media @phone{
+        width: 100%;
+        padding: 5%
+    }
+}
+
+.linkStyles(){
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: @nav-font;
+    padding: 1.4%;
+    width: 100%;
+    text-align: center;
+
+    &:hover {
+       color: @footer-font-color;
+    }
+}

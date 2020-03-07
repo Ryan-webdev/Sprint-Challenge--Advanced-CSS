@@ -19,11 +19,24 @@
     flex-wrap: wrap;
     width: 100%;
 
+    @media @phone{
+      .sky{
+        display: none;
+      }
+      .launch{
+        display: none;
+      }
+    }
+
     img {
       width: 28%;
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+
+      @media @phone {
+        width: 100%
+      }
     }
   }
 
@@ -58,6 +71,7 @@
       }
 
       .btn {
+        .signupButton(@sinup-btn-color, @sign-font-color)
       }
     }
 
