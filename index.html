@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SpaceWalkers</title>
 
   <link href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu" rel="stylesheet">
@@ -17,11 +17,26 @@
 <body>
 
  <!-- navigation code here -->
+ <nav>
+  <div class="navbar"> <!--begin navbar-->
+      <div class="logo">
+        <h1 >SpaceWalkers</h1>
+      </div>
+      <div class="links">
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+        <a href="#">Sign In</a>
+      </div>
+    </div> 
+  </nav>   <!--end navbar-->
 
   <div class="container home">
 
     <header class="intro">
        <!-- image code here -->
+       <img src="img/main-header.png" class="banner" alt="Header Image">
 
       <h2>Lift Off</h2>
     
@@ -60,6 +75,31 @@
           <img src="img/space-walk.png" alt="Space walking astronaut">
       </div>
 
+    </section>
+
+    <section class="contact">
+      <div class="contact-section">
+      <h4>Select Your Subscription Plan:</h4>
+        <div class="magazine">
+          
+            <form>
+              <label>Your Name:</label>
+              <input name="name" type="text">
+              <label>Your Email:</label>
+              <input name="email" type="text">
+              <div class="plan">
+              <label>Select Subscription Plan:</label>
+              </div>
+              <div class="sub">
+              <input type="radio" name="sub" value="month"><span>$9.99 per Month</span><br>
+              <input type="radio" name="sub" value="year"><span>$109.99 per Year</span><br>
+              </div>
+              <br><button>Sign up!</button>
+            </form>
+  
+      </div>
+    </div>
+  
     </section>
 
     <footer>

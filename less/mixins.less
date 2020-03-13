@@ -1,1 +1,55 @@
 // Mixins Here
+
+.signupButton(@sinup-btn-color, @sign-font-color){
+    background-color: @sinup-btn-color;
+    padding: 2%;
+    border-radius: 7px;
+    color: @sign-font-color;
+    text-align: center;
+    font-size: 1.4rem;
+    width: 28%;
+    
+
+    &:hover {
+        color: @white;
+        background-color: @button-bg;
+    }
+
+    @media @phone{
+        width: 100%;
+        padding: 5%
+    }
+}
+
+.magButton(@sinup-btn-color, @white){
+    background-color: @sinup-btn-color;
+    padding: 3%;
+    border-radius: 13px;
+    color: @white;
+    text-align: center;
+    font-size: 1.6rem;
+    width: 50%;
+
+    &:hover{
+        background-color: @button-bg;
+    }
+}
+
+.navStyle(){
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: @nav-font;
+    padding: 1.4%;
+    width: 100%;
+    text-align: center;
+
+    &:hover {
+       color: @footer-font-color;
+    }
+}
+
+.flex-column(){
+    display: flex;
+    flex-direction: column;
+}
+
